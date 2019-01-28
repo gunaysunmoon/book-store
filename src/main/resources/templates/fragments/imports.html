@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicons -->
-    <link rel="shortcut icon" th:href="@{/images/favicon.ico}">
-    <link rel="apple-touch-icon" th:href="@{/images/icon.png}">
+    <link rel="shortcut icon" th:href="@{images/favicon.ico}">
+    <link rel="apple-touch-icon" th:href="@{images/icon.png}">
 
     <!-- Google font (font-family: 'Roboto', sans-serif; Poppins ; Satisfy) -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
@@ -15,13 +15,17 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
-    <link rel="stylesheet" th:href="@{/css/plugins.css}">
-    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <link rel="stylesheet" th:href="@{css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{css/plugins.css}">
+    <link rel="stylesheet" th:href="@{css/style.css}">
 
     <!-- Cusom css -->
     <link rel="stylesheet" th:href="@{css/custom.css}">
 
+
+</th:block>
+
+<th:block xmlns:th="http://www.thymeleaf.org" th:fragment="js-imports">
     <!-- Modernizer js -->
     <script th:src="@{js/vendor/modernizr-3.5.0.min.js}"></script>
 
